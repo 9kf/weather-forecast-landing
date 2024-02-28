@@ -77,3 +77,56 @@ body {
 }
 
 /* FAQ Section CSS */
+
+.header {
+    color: #2B235A;
+    text-align: left;
+    padding: 1px;
+  }
+  
+  .header h1 {
+    font-style: inter;
+    font-weight: 900;
+    size: 72px;
+    line-height: 87.14px;
+    letter-spacing: -4%;
+  }
+  
+  .header p {
+    font-size: 14px;
+    color: #2B235A;
+    opacity: 60%;
+  }
+
+/* index_download.css */
+.feature_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.feature_list_item {
+    flex-basis: 22%;
+    margin-bottom: 20px;
+    padding: 24px;
+    border: 1px solid #281f58;
+    border-radius: 10px;
+    background-color: #2B235A;
+    gap: 12px;
+    justify-content: space-evenly;
+}
+.feature_list_item h4 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+    line-height: 48.41px;
+    letter-spacing: -4%;
+  }
+  
+  .feature_list_item p {
+    font-size: 24px;
+    opacity: 50%;
+    font-weight: 400;
+    color: white;
+    line-height: 29.05px;
+    letter-spacing: -4%;
+  }
