@@ -77,3 +77,215 @@ body {
 }
 
 /* FAQ Section CSS */
+
+/* ----------Contact Us---------------------- */
+
+/* Containers */
+.contactContainer{
+    background: #2B235A;  
+    width: 1920px;
+    height: 1041px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactUs{
+    width:  816px;
+    height:  343px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm{
+    width: 816px;
+    height: auto;
+    padding: 49px 48px;
+    margin-left: 24px;
+    border-radius: 20px;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ContactDetails Container */
+/* header */
+.hdr{
+    width: 816px;
+    height: 87px;
+    margin-bottom: 10px;
+}
+
+.hdr p{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 72px;
+    margin: 0;
+    color: #F3F3F3;
+}
+
+/*Contact Details*/
+.contactDetails{
+    width: 816px;
+    height: 96px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.contactDetails h1{
+    font-family: Inter;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+
+.contactDetails p {
+    font-family: Inter;
+    margin: 0;
+    font-size: 24px;
+    color: white;
+}
+
+/* Contact Details - Contents */
+.email{
+    width: 256px;
+    height: 62px;
+    margin-right: 24px;
+}
+
+.phone{
+    width: 256px;
+    height: 62px;
+    margin-right: 24px;
+}
+
+.address{
+    width: 256px;
+    height: 91px;
+}
+
+/* Submit Button */
+.submitBtn{
+    width: 816px;
+    height: 117px;
+    padding: 40px, 0px, 0px, 0px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.submitBtn button{
+    color: white;
+    background: #75B4E3;
+    height: 77px;
+    width: 408px;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+/* ---------------------------------------- */
+/* contactForm Container */
+label{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2B235A;
+}
+
+/* header */
+.hdr2{
+    width:720px;
+    height: 58px;
+    margin: 10px;
+}
+
+.hdr2 p{
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 48px;
+    margin: 0;
+    color: #2B235A;
+}
+
+/* 1st fields */
+
+.person input{
+    width: 340px;
+    height: 60px;
+    padding: 18px, 287px, 18px, 24px;
+    border-radius: 10px;
+    border-style: none;
+    font-family: Inter;
+    font-size: 20px;
+    background-color:#BCC2D8;
+}
+
+.person{
+    width: 720px;
+    height: 88px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.name{
+    width: 355px;
+    height: 88px;
+    margin-right: 30px;
+}
+
+.surname{
+    width: 355px;
+    height: 88px;
+}
+
+/* 2nd and 3rd Fields */
+.mail, .loc{
+    width: 720px;
+    height: 88px;
+    margin: 10px;
+}
+
+.mail input, .loc input{
+    width: 720px;
+    height: 60px;
+    padding: 18px, 538px, 18px, 24px;
+    border-radius: 10px;
+    border-style: none;
+    font-family: Inter;
+    font-size: 20px;
+    background-color:#BCC2D8;
+}
+
+/* Description Field */
+.desc{
+    width: 720px;
+    height: 184px;
+    margin: 10px;
+}
+
+.desc input{
+    width: 715px;
+    height: 156px;
+    border-radius: 10px;
+    border-style: none;
+    background-color:#BCC2D8;
+}
+
+/* Form Submit Button */
+.contactForm button{
+    width: 720px;
+    height: 77px;
+    padding: 24px;
+    border-radius: 10px;
+    border-style: none;
+    margin: 10px;
+    color: white;
+    background: #75B4E3;
+    font-family: Inter;
+    font-size: 24px;
+}
+/* ----------Contact Us---------------------- */
