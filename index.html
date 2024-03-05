@@ -2,129 +2,291 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
 </head>
 
 <body>
 
-    <div class="page">
-        <header class="header">
-            <h1>Severe Weather Updates</h1>
-            <p> Notifies users about severe weather conditions, such as storms, hurricanes,
-                 <br> and tornadoes, and provides safety tips and precautions.</p>
-          </header> 
-          
-          <div class="wrapper">
-            <div class="feature_list">
-                <div class="feature_list_item">
-                    <h4>Real-time Updates</h4>
-                    <p>Get instant updates on severe <br> weather conditions in your area.</p>
-                </div>
-                <div class="feature_list_item">
-                    <h4>Customizable Alerts</h4>
-                    <p>Choose the types of severe <br> weather alerts you want to receive.</p>
-                </div>
-                <div class="feature_list_item">
-                    <h4>Safety Tips</h4>
-                    <p>Receive helpful safety tips and <br> precautions during sever weather <br> events.</p>
-                </div>
-                <div class="feature_list_item">
-                    <h4>Interactive Maps</h4>
-                    <p>View interactive maps to track <br> severe weather patterns and their <br> movement.</p>
-                </div>
-                <div class="feature_list_item">
-                    <h4>Emergency Contacts</h4>
-                    <p>Access a list of emergency contacts for your area <br> during severe weather events.</p>
-                </div>
+  <div class="mainContainer">
+    <section class="one">
+      <div class="heroContainer">
+        <div class="textWrapper">
+          <div class="textWrap">
+            <div class="headingWrapper">
+              <h1 class="heading">
+                Welcome to <br> WeatherNow
+              </h1>
+            </div>
+            <p>Get accurate weather forecasts anytime, anywhere.</p>
+          </div>
+          <div class="buttonWrap">
+            <p> Download Now </p>
+          </div>
+        </div>
+        <div class="mapWrapper">
+          <p> ILLUSTRATION ACTIVE PART </p>
+        </div>
+      </div>
+    </section>
+    <section class="two">
+      <div class="featureListSection">
+        <div class="heading">
+          <div class="headingWrapper">
+            <h1 class="flHeading">
+              Key Features
+            </h1>
+          </div>
+          <p> Discover the powerful features of our weather forecasting mobile <br> application</p>
+        </div>
+        <div class="wrapper">
+          <div class="featureList">
+            <div class="featureHeading">
+              <h3> Real-Time Updates</h3>
+              <p> Stay informed with real-time weather updates for your location.</p>
+            </div>
+            <div class="featureHeading">
+              <h3> Hourly Forecast</h3>
+              <p>Plan your day with hourly weather forecasts to make the most of your activities.</p>
+            </div>
+            <div class="featureHeading">
+              <h3> Daily Forecasts</h3>
+              <p>Get accurate daily weather forecasts to plan your week ahead.</p>
+            </div>
+            <div class="featureHeading">
+              <h3> Severe Weather Alerts </h3>
+              <p>Receive timely alerts for severe weather conditions to stay safe.</p>
             </div>
           </div>
-          <footer>
-            <!-- Footer content -->
-        </footer>
-        <header class="FAQ">
-            <h1>FAQ</h1>
-        </header>
-
-        <div class="accordions">
-
-            <div class="accordion">
-                <button class="accordion-btn">What subscription plans are available?
-                    <div class="circle">
-                        <span class="symbol">+</span>
-                    </div>
-                </button>
-                <div class="panel">
-                    <p>We offer three subscription plans: Basic, Premium, and Pro. Each plan offers different features
-                        and pricing options. You can choose the plan that best suits your needs.
-                    </p>
-                </div>
+        </div>
+      </div>
+    </section>
+    <section class="three">
+      <div class="contactsSection">
+        <div class="mapWrapper">
+          <p> MAP </p>
+        </div>
+        <div class="textWrapper">
+          <div class="headingWrapper">
+            <h1> How It Works </h1>
+          </div>
+          <div class="contactsSectionWrapper">
+            <div class="contentWrapper">
+              <p><strong>Search for Locations</strong></p>
+              <p>Enter the name of a city or town in the search bar to find the weather forecast for that location.</p>
             </div>
-
-            <div class="accordion">
-                <button class="accordion-btn">Where does the weather data come from?
-                    <div class="circle">
-                        <span class="symbol">+</span>
-                    </div>
-                </button>
-                <div class="panel">
-                    <p>Our weather forecasting mobile application sources data from multiple reliable weather providers.
-                        We combine and analyze the data to provide accurate and up-to-date weather information.
-                    </p>
-                </div>
+            <div class="contentWrapper">
+              <p><strong>View Weather Details</strong></p>
+              <p>Once you have searched for a location, you will see detailed weather information such as temperature,
+                humidity, wind speed, and precipitation.</p>
             </div>
-
-            <div class="accordion">
-                <button class="accordion-btn">How accurate is the weather forecast?
-                    <div class="circle">
-                        <span class="symbol">+</span>
-                    </div>
-                </button>
-                <div class="panel">
-                    <p>We strive to provide the most accurate weather forecast possible.
-                        However, weather forecasting is a complex science and there can be variations in accuracy.
-                        We continuously work to improve our algorithms and data sources to enhance the accuracy of our
-                        forecasts.
-                    </p>
-                </div>
+            <div class="contentWrapper">
+              <p><strong>Customize Settings</strong></p>
+              <p>Personalize your weather forecasting experience by customizing settings such as temperature units,
+                language, and notification preferences.</p>
             </div>
-
-            <div class="accordion">
-                <button class="accordion-btn">Can I cancel my subscription at any time?
-                    <div class="circle">
-                        <span class="symbol">+</span>
-                    </div>
-                </button>
-                <div class="panel">
-                    <p>Yes, you can cancel your subscription at any time. There are no long-term commitments or
-                        cancellation fees. Simply go to your account settings and follow the instructions to cancel your subscription.
-                    </p>
-                </div>
+          </div>
+          <div class="buttonWrapper">
+            <p class="bg">SUBMIT</p>
+            <p class="bordered">SUBMIT</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="four">
+      <div class="contactsSection">
+        <div class="mapWrapper">
+          <p> MAP </p>
+        </div>
+        <div class="textWrapper">
+          <div class="headingWrapper">
+            <h1> Contact Us </h1>
+          </div>
+          <div class="contactsSectionWrapper">
+            <div class="contentWrapper">
+              <p><strong> Email </strong></p>
+              <p> info@weatherapp.com </p>
             </div>
-
-            <div class="accordion">
-                <button class="accordion-btn">Is customer support available?
-                    <div class="circle">
-                        <span class="symbol">+</span>
-                    </div>
-                </button>
-                <div class="panel">
-                    <p>Absolutely! We have a dedicated customer support team available to assist you with any questions
-                        or issues you may have. You can reach out to us through our support portal or email, and we'll be happy to help.
-                    </p>
-                </div>
+            <div class="contentWrapper">
+              <p><strong> Phone </strong></p>
+              <p> +1 123-456-7890 </p>
             </div>
+            <div class="contentWrapper">
+              <p><strong> Address </strong></p>
+              <p> 123 Main Street, City, State, Country </p>
+            </div>
+          </div>
+          <div class="buttonWrapper">
+            <p class="bg">SUBMIT</p>
+            <p class="bordered">SUBMIT</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 
+  <div class="page">
+    <header class="FAQ">
+      <h1>FAQ</h1>
+    </header>
+
+    <div class="accordions">
+      <div class="accordion">
+        <button class="accordion-btn">
+          What subscription plans are available?
+          <div class="circle">
+            <span class="symbol">+</span>
+          </div>
+        </button>
+        <div class="panel">
+          <p>
+            We offer three subscription plans: Basic, Premium, and Pro. Each
+            plan offers different features and pricing options. You can choose
+            the plan that best suits your needs.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <button class="accordion-btn">
+          Where does the weather data come from?
+          <div class="circle">
+            <span class="symbol">+</span>
+          </div>
+        </button>
+        <div class="panel">
+          <p>
+            Our weather forecasting mobile application sources data from
+            multiple reliable weather providers. We combine and analyze the
+            data to provide accurate and up-to-date weather information.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <button class="accordion-btn">
+          How accurate is the weather forecast?
+          <div class="circle">
+            <span class="symbol">+</span>
+          </div>
+        </button>
+        <div class="panel">
+          <p>
+            We strive to provide the most accurate weather forecast possible.
+            However, weather forecasting is a complex science and there can be
+            variations in accuracy. We continuously work to improve our
+            algorithms and data sources to enhance the accuracy of our
+            forecasts.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <button class="accordion-btn">
+          Can I cancel my subscription at any time?
+          <div class="circle">
+            <span class="symbol">+</span>
+          </div>
+        </button>
+        <div class="panel">
+          <p>
+            Yes, you can cancel your subscription at any time. There are no
+            long-term commitments or cancellation fees. Simply go to your
+            account settings and follow the instructions to cancel your
+            subscription.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <button class="accordion-btn">
+          Is customer support available?
+          <div class="circle">
+            <span class="symbol">+</span>
+          </div>
+        </button>
+        <div class="panel">
+          <p>
+            Absolutely! We have a dedicated customer support team available to
+            assist you with any questions or issues you may have. You can
+            reach out to us through our support portal or email, and we'll be
+            happy to help.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contactContainer">
+    <div class="contactUs">
+      <div class="hdr">
+        <p>Contact Us</p>
+      </div>
+
+      <div class="contactDetails">
+        <div class="email">
+          <h1>Email</h1>
+          <p>info@weatherapp.com</p>
         </div>
 
+        <div class="phone">
+          <h1>Phone</h1>
+          <p>+1 123-456-7890</p>
+        </div>
+
+        <div class="address">
+          <h1>Address</h1>
+          <p>123 Main Street, City, State, Country</p>
+        </div>
+      </div>
+
+      <div class="submitBtn">
+        <button>Submit</button>
+      </div>
     </div>
 
-    <script src="/script.js"></script>
+    <form class="contactForm">
+      <div class="hdr2">
+        <p>Get in touch with us</p>
+      </div>
+
+      <div class="person">
+        <div class="name">
+          <label for="fname">Name</label><br />
+          <input type="text" id="fname" name="fname" value="" /><br />
+        </div>
+
+        <div class="surname">
+          <label for="lname">Surname</label><br />
+          <input type="text" id="lname" name="lname" value="" /><br /><br />
+        </div>
+      </div>
+
+      <div class="mail">
+        <label for="mail">Email</label><br />
+        <input type="mail" id="mail" name="mail" value="" /><br />
+      </div>
+
+      <div class="loc">
+        <label for="location">Location</label><br />
+        <input type="text" id="location" name="location" value="" /><br />
+      </div>
+
+      <div class="desc">
+        <label for="description">Description</label><br />
+        <input type="text" id="description" name="description" value="" /><br />
+      </div>
+
+      <button>Submit</button>
+    </form>
+  </div>
+  
+  <script src="./script.js"></script>
 
 </body>
 
