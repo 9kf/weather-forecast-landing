@@ -199,6 +199,137 @@ section{
 
 /* Attention Screen, Key Features, and “How it works” Section CSS */
 
+/*Severe Weather Alerts, Download Now, and What Our Users Say Section CSS*/
+
+.header {
+    color: #2B235A;
+    text-align: left;
+    padding: 1px;
+  }
+  
+  .header h1 {
+    font-family: 'Inter', sans-serif; 
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 87.14px;
+    letter-spacing: -1px; 
+    margin: 0; 
+  }
+  
+  .header p {
+    font-size: 14px;
+    color: #2B235A;
+    opacity: 60%;
+  }
+
+/* indexSWA.css */
+.feature_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0px;
+}
+.feature_list_item {
+  flex-basis: 20%;
+  margin-bottom: 2px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  gap: 12px;
+}
+
+
+/* index_download.css */
+.feature_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2px;
+}
+.feature_list_item {
+    flex-basis: 22%;
+    margin-bottom: 2px;
+    padding: 20px;
+    border: 1px solid #281f58;
+    border-radius: 10px;
+    background-color: #2B235A;
+    gap: 12px;
+    justify-content: space-evenly;
+}
+.feature_list_item h4 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+    line-height: 48.41px;
+    letter-spacing: -4%;
+  }
+  
+  .feature_list_item p {
+    font-size: 18px;
+    opacity: 50%;
+    font-weight: 400;
+    color: white;
+    line-height: 29.05px;
+    letter-spacing: -4%;
+  }
+
+/* index_feedback.css */
+.wrapper02 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 20px;
+    width: fill(1680px);
+    height: auto;
+    gap: 4px;
+}
+.card {
+    background-color: #2B235A;
+    border: 1px solid #281c49;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+    margin-top: 20px;
+    display: flex; 
+    padding: 16px;
+    gap: 16px;
+    height: auto;
+    width: fill (552px);
+}
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 60px; 
+    height: 60px;
+    border-radius: 50%; 
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .card h3 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    line-height: 29.05px;
+    letter-spacing: -4%;
+
+  }
+
+
+/*Severe Weather Alerts, Download Now, and What Our Users Say Section CSS*/
+
 /* FAQ Section CSS */
 
 .page {
@@ -677,4 +808,5 @@ section{
     padding: 24px;
     height: 70px;
 }
+
 
